@@ -106,13 +106,22 @@ form {
     margin-left: 40px;
 }
 
+.convert-option label {
+    cursor: pointer;
+}
+
 .convert {
     padding: 12px 28px;
     margin-left: 20px;
     border-radius: 4px;
-    background-color: #833cff;
+    background-color: #4681f4;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.convert:hover {
+    background-color: #3b6bcd;
 }
 
 .output p {
@@ -131,6 +140,11 @@ form {
     background-color: #833cff;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.theme:hover {
+    background-color: #6831c8;
 }
 
 

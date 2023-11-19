@@ -30,9 +30,9 @@ convert.addEventListener('click', () => {
 
     if (isValid(temp)) {
         if (selected.value === 'temp-to-F') {
-            output.innerText = toFahrenheit(temp).toFixed(1);
+            output.innerText = `${toFahrenheit(temp).toFixed(1)}\u00B0F`;
         } else {
-            output.innerText = toCelsius(temp).toFixed(1);
+            output.innerText = `${toCelsius(temp).toFixed(1)}\u00B0C`;
         }
     } else {
         output.innerText = 'Please, enter a valid temperature';
